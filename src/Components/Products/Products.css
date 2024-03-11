@@ -1,0 +1,11 @@
+.SearchProduct {
+  width: 300px;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.navLink {
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}

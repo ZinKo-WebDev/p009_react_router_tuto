@@ -1,0 +1,86 @@
+.loginDiv {
+  max-width: 100%;
+  max-height: 1000px;
+}
+.login-container {
+  background-color: #fff;
+  width: 100%;
+
+  transition-property: border-radius, height;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.login-content_header {
+  color: rgb(22, 151, 202);
+}
+.login-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  text-align: center;
+}
+.login-content p {
+  font-size: 1.1rem;
+  margin-top: 5rem;
+}
+.login-content p strong {
+  color: rgb(22, 151, 202);
+}
+.login-content_header {
+  text-align: center;
+}
+.login-content_header span#logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.login-content_header h2 {
+  font-size: 3.5rem;
+  line-height: 1;
+  margin: 25px 0;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.login-form input {
+  padding: 8px 16px;
+  border-radius: 50px;
+}
+input {
+  border: 1px solid #ccc;
+  margin: 8px 0;
+}
+input[type="submit"] {
+  border: none;
+  background-color: rgb(22, 151, 202);
+  color: #fffacd;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+.login-netoworks {
+  margin-top: 2rem;
+}
+.login-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 20px;
+  list-style: none;
+}
+.login-icons li {
+  background-color: rgb(22, 151, 202);
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.socialIcons {
+  color: rgb(255, 252, 252);
+}
+.login-icons li:hover {
+  .socialIcons {
+    color: rgb(0, 0, 0);
+  }
+}
